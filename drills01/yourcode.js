@@ -1,11 +1,12 @@
 var sumArray1 = [1,5,3,2,6];
 
 function sumArray(){
-    var sumArrayResult = 0; 
+    var sumArrayResult = 0;
     for (var sumArrayIndex = 0; sumArrayIndex < sumArray1.length; sumArrayIndex++){
         sumArrayResult += sumArray1[sumArrayIndex];
     }
     console.log('sumArrayResult: ',sumArrayResult);
+    return sumArrayResult;
 }
 sumArray();
 
@@ -48,7 +49,7 @@ function getAllNamesShorterThan(){
 
         case (nameLength < 20):
             shorterThanArray20.push(arrayName[index]);
-        break; 
+        break;
         default:
     }
     console.log('ShorterThan 4: ', shorterThanArray4);
