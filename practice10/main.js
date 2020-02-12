@@ -6,4 +6,4 @@ function permutations(string){
 
 // console.log(permutations(string))
 
-console.log(3!);
+// console.log(3!);
