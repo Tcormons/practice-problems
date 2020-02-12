@@ -1,6 +1,16 @@
+function countOccurences(array, word) {
+  var counter = 0;
+  for (var index = 0; index < array.length; index++) {
+    if (array[index] == word){
+      counter ++;
+    }
+  }
+  return counter;
+}
 
+function wordLengths() {
 
-function countOccurences() {
+  function countOccurences() {
     var array1 = ['how', 'much', 'wood', 'would', 'a', 'wood', 'chuck', 'chuck', 'if', 'a', 'wood', 'chuck', 'could', 'chuck', 'wood'];
     var array2= [
         "who",
@@ -77,7 +87,6 @@ function getMinMaxMean() {
 }
 
 function findMode() {
-
     var array1 = [
         2,
         4,
